@@ -1,10 +1,10 @@
 {
-  "name": "@a-ui/core",
+  "name": "@a-ui/backoffice",
   "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/a-ui/core_branding_scss.git"
+    "url": "https://github.com/a-ui/core_branding-backoffice_scss.git"
   },
   "scripts": {
     "prepublish": "gulp build",
@@ -20,12 +20,13 @@
       "email": "jasper.vanproeyen@digipolis.be"
     },
     {
-      "name": "Sander Geenen",
-      "email": "sander.geenen@district01.be"
+      "name": "Tom Wuyts",
+      "email": "tom.wuyts@digipolis.be"
     }
   ],
   "license": "MIT",
   "devDependencies": {
+    "@a-ui/core": "^1.0.0",
     "autoprefixer": "^6.7.5",
     "browser-sync": "^2.18.8",
     "cssnano": "^3.10.0",

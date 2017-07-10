@@ -33,7 +33,10 @@ var autoPrefixer = [
 
 var sassOptions = {
     outputStyle: 'expanded',
-    sourceComments: false
+    sourceComments: false,
+    includePaths: [
+        './node_modules'
+    ]
 }
 
 var sourcemapOptions = {
